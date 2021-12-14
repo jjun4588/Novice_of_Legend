@@ -1,0 +1,54 @@
+/* 기본 이미지 크기 조정 */
+
+.container {
+  display: flex;
+  width: 70%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/* 동적으로 레이아웃이 변할때 반응형 크기 설정 */
+
+.box {
+  flex: 1; 
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0; 
+}
+
+/* 오버해서 기존형태가 확대되면 해당 이미지 구간 설정  */
+
+.box > img {
+  width: 100%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: .5s; 
+}
+
+/* 오버해서 기존형태가 확대되면 해당 제목 크기 구간 설정  */
+
+.box > span {
+  font-size: 3.0vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  color: white;
+}
+
+/* 마우스 오버시 확대 */
+
+.box:hover {
+  flex: 1 1 50%; 
+}
+
+/* 마우스 오버시 확대구간 설정 */
+
+.box:hover > img {
+  width: 100%;
+  height: 100%; 
+}

@@ -1,0 +1,76 @@
+/* 바론배경 스크롤 반응형 위치 (원래는 움직이는데 여러문제로 그냥 고정해놓음) */
+
+.baron {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -550px;
+}
+
+.baron__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.baron__layer img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.baron__cover {
+  background: #191A19;
+  display: block;
+
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 2;
+}
+
+/* 바론이미지 0~6개 하나하나 위치선정 */
+
+.baron__layer__0 {
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
+}
+
+.baron__layer__1 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.baron__layer__2 {
+  -webkit-transform: translateZ(-200px) scale(3);
+          transform: translateZ(-200px) scale(3);
+}
+
+.baron__layer__3 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+}
+
+.baron__layer__4 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
+}
+
+.baron__layer__5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+}
+
+.baron__layer__6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
+}

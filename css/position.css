@@ -1,0 +1,72 @@
+.box-wrap {
+  display: flex; /* 무조건 1행 수평으로 배치시켜줌 */
+}
+
+.box {
+  position: relative; /* 고정위치 */
+}
+.box .info {
+  position: absolute; left: 25%; top: 25%; /* 나타나는 이미지 위치 */
+  opacity: 0; /* 불투명도 */
+  transition: opacity 0.8s ease-in-out; /* 나타나는 시간간격(속도) */
+  image-align: center;
+}
+.box:hover .info {
+  opacity: 1; /* 불투명도 */
+}
+
+
+.box2 {
+  position: relative; 
+}
+.box2 .info2 {
+  position: absolute; left: 25%; top: 25%; 
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  image-align: center;
+}
+.box2:hover .info2 {
+  opacity: 1;
+}
+
+
+.box3 {
+  position: relative;
+}
+.box3 .info3 {
+  position: absolute; left: 25%; top: 25%; 
+  opacity: 0; 
+  transition: opacity 0.8s ease-in-out; 
+  image-align: center;
+}
+.box3:hover .info3 {
+  opacity: 1; 
+}
+
+
+.box4 {
+  position: relative; 
+}
+.box4 .info4 {
+  position: absolute; left: 25%; top: 25%; 
+  opacity: 0; 
+  transition: opacity 0.8s ease-in-out;
+  image-align: center;
+}
+.box4:hover .info4 {
+  opacity: 1;
+}
+
+
+.box5 {
+  position: relative;
+}
+.box5 .info5 {
+  position: absolute; left: 25%; top: 25%; 
+  opacity: 0; 
+  transition: opacity 0.8s ease-in-out; 
+  image-align: center;
+}
+.box5:hover .info5 {
+  opacity: 1; 
+}

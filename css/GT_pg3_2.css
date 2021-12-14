@@ -1,0 +1,19 @@
+.Test2_1{
+	float:left
+	margin-right:10px;
+	text-align: left;
+}
+.Test2_2{
+	float:right;
+	margin-right:10px;		
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.Test2_3{
+	text-align: left;
+	margin-right:10px;
+}
+.Test2_4{
+	float:left;
+	margin-right:10px;
+}

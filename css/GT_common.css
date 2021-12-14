@@ -1,0 +1,36 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "굴림";   font-size: 14px; color: #CCCCCC; }
+img { border: 0;}
+ul { list-style-type: none; }
+
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+
+/* 메인 콘텐츠 */
+#title { margin-top: 30px; margin-left: 600px; margin-right : 600px }
+#main_content { margin-top: 60px; margin-left: 50px; margin-right : 50px; }
+#main_image { width: 950px; height: 600px; object-fit: cover; }
+
+/* 상단 헤더 */
+#menu_bar { background-color: #000000; font-size: 16px; height: 100px; position: absolute; left: 0; top:0; width: 100%; z-index: 1;}
+#menu_bar ul { width: 1300px; margin: 0 auto; padding: 5px 0 0 40px; }
+#menu_bar li { display: inline; margin-left: 150px; color: white; }
+#menu_bar a:link { color: white; }
+#menu_bar a:hover { color: white; }
+#menu_bar a:visited { color: white; }
+#menu_bar a:active { color: white; }
+
+/* 하단 푸터 */
+footer { height: 100px; background-color: #00112b; }
+#footer_content { position: relative; width: 1000px; margin: 0 auto; color: #aaaaaa; }
+#footer_logo { position: absolute; top: 30px; left: 50px; font-size: 16px; }
+#footer_logo span { color: Yellow; }
+#name { position: absolute; top: 30px; left: 400px; }
+#author { position: absolute; top: 30px; left: 700px; }

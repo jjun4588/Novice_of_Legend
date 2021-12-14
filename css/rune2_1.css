@@ -1,0 +1,579 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+/*BODY*/
+b {
+    font-size: 20px;
+}
+
+.dr {
+    display: flex;
+}
+
+/*팝업창*/
+#popup {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+
+#popmenu p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+/*팝업창*/
+#popup2 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu2 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu2 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit2 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup3 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu3 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu3 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit3 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup4 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu4 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu4 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit4 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup5 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu5 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu5 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit5 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup6 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu6 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu6 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit6 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup7 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu7 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu7 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit7 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup8 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu8 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu8 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit8 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup9 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu9 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu9 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit9 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup10 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu10 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu10 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit10 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup11 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu11 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu11 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit11 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+
+/*팝업창*/
+#popup12 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu12 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu12 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit12 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+/*팝업창*/
+#popup13 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu13 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu13 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit13 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+/*팝업창*/
+#popup14 {
+    display: none; /*숨기기*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+#popmenu14 {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#popmenu14 p {
+    margin-top: 20px;
+    color: white;
+}
+
+.exit14 {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
