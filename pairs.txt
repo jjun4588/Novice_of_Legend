@@ -1,0 +1,3 @@
+pairs:
+  GT : geumtaek
+  JH : junho
